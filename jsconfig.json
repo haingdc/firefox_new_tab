@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./node_modules/*", "./.yarn/cache/*"]
+    },
+    "moduleResolution": "NodeNext" // For example: Make Go to definition for 'chalk' works in VsCode
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.js"
+  ]
+}

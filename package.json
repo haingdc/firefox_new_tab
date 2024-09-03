@@ -1,0 +1,23 @@
+{
+  "name": "new_tab_berry",
+  "packageManager": "yarn@4.4.1+sha512.f825273d0689cc9ead3259c14998037662f1dcd06912637b21a450e8da7cfeb4b1965bbee73d16927baa1201054126bc385c6f43ff4aa705c8631d26e12460f1",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "bootstrap": "yarn dlx @yarnpkg/sdks vscode",
+    "about:clean": "echo 'clean yarn cache in case install packages fail'; yarn cache clean"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.8",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "geckodriver": "^4.4.2",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.26",
+    "typescript": "^5.5.4"
+  }
+}
